@@ -23,6 +23,7 @@ app.use(
       next();
     } else if (req.headers.authorization === "mellon") { // https://youtu.be/DgHCM68KkPY?t=230
       console.log(`Allowing access for headers: ${JSON.stringify(req.headers)}`)
+      next();
     } else {
       res.status(401).send("Unauthorized");
     }

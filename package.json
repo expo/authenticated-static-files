@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "now": "~19.2.0"
   },
   "name": "authenticated-static-files",
